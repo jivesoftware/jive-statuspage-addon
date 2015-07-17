@@ -8,19 +8,19 @@ function transform(body, headers, options, callback)   {
 var component = {
 	'xyk3yzfdk9kl': {
 		'name': "Marketing Services",
-		'img': "http://bit.ly/1HveWJB"
+		'img': "https://raw.githubusercontent.com/jivesoftware/jive-statuspage-addon/master/resources/images/marketing_services.png"
 	},
 	'f0smn2s09lv4': {
 		'name': "Cloud Data Server",
-		'img': "http://bit.ly/1CCFTP9"
+		'img': "https://raw.githubusercontent.com/jivesoftware/jive-statuspage-addon/master/resources/images/cloud_data_server.png"
 	}
 }
 
 var desc = {
-	'operational': component[body.component_update.component_id].name + " Status: Operational",
-	'degraded_performance': component[body.component_update.component_id].name + " Status: Degraded Performance",
-	'partial_outage': component[body.component_update.component_id].name + " Status: Partial Outage",
-	'major_outage': component[body.component_update.component_id].name + " Status: Major Outage!"
+	'operational':  "Operational",
+	'degraded_performance': "Degraded Performance",
+	'partial_outage': "Partial Outage",
+	'major_outage': "Major Outage!"
 }
 
 // Build activity object.
