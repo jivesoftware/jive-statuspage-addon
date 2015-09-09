@@ -1,0 +1,39 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "displayName": "StatusPageApp",
+            "name": "statuspageapp",
+            "description": "A simple stream integration with app for the StatusPage.io service",
+            "style": "ACTIVITY",
+            "icons": {
+                "16": "icon-16.png",
+                "48": "icon-48.png"
+            },
+            "config": "/public/configuration.html?features=jq-1.11,core-v3,tile",
+            "transform": {
+                "script": "xform.js"
+            },
+            "pageTypes": [
+                "PLACE",
+                "MOBILE",
+                "NEWS"
+            ],
+            "categories": [
+                "other"
+            ],
+            "displayWidth": "ALL",
+            "i18n": "*"
+        }
+    ],
+    "osapps": [
+        {
+            "id": "9b7c6342-542f-42bb-aa18-03c06652cc8e",
+            "name": "StatusPageApp_app-ext-object",
+            "appPath": "9b7c6342542f42bbaa1803c06652cc8e",
+            "url": "/public/apps/StatusPageApp/app.xml"
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+body {
+    color: #5e5e5e;
+    font: 13px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 10px;
+}
+
+.logo {
+width:250px;
+height:auto;
+}
+.j-card .hidden {
+    display: none;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: -5px;
+}
+
+/*
+ul {
+    margin-left:0px; padding-left:20px; list-style-type:square;
+}
+*/
+textarea.j-html {
+    width: 95%;
+    height: 300px;
+    resize: none;
+}
+
+.j-form label input {
+    position: relative;
+}
+
+button {
+    background-color:#3498DB;
+    border-radius: 4px;
+    border-width: 0px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -2px 0px 0px inset;
+    box-sizing: border-box;
+    position:relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 49px;
+    line-height: 51px;
+    margin: 0px;
+    padding: 0 24px 0 24px;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+button.j-primary {
+    color: white;
+    text-shadow: none;
+    background: #408bd0;
+}
+/*
+.button-enable  {
+    color: green;
+}
+
+.button-disable {
+    color: red;
+}
+ */
+.warning{
+    color: #b30200;
+    font-size: 1.1em;
+}
+
+.main-view {
+    margin: inherit;
+}
+
+.body-contentBox {
+    margin: 5px 0 20px;
+    padding: 15px 20px;
+    border: 1px solid #dcdcdc;
+    background: #f5f5f5;
+}
+
+.body-contentBox p {
+    color: #000000;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#form-whitelist input[type="radio"] {
+    font-size: 1.3em;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#form-whitelist input[type="radio"] + label {
+    font-size: 1.3em;
+}
+
+ul#horizontal-list {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 0 15px;
+}
+
+ul#horizontal-list li {
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+input[type = 'text'] {
+    margin-top: 2px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #dadada;
+    padding: 6px 4px;
+    transition: all;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    width: 100%;
+    outline: none;
+    font: 13px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.j-form .j-form-label-inline,
+.j-form .j-form-legend-inline {
+    display: inline;
+    margin-right: 7px;
+}
+
+.j-form .j-form-label-inline input[type = 'radio'] {
+    float: inherit;
+}
+
+.j-note span.j-note-emphasis {
+    text-decoration: underline;
+}
+
+#j-schema-table, #j-curl-template, #j-schema-toggle-off, #j-body-toggle-off, #j-curl-toggle-off, #j-help-toggle-off, #j-sample-body-container , #j-sample-curl-container, #j-help-container {
+    display: none;
+}
+
+#j-curl-template {
+    word-wrap: break-word;
+}
+
+.j-caution {
+    color: red;
+}
+
+.j-tab {
+    margin-left: 40px;
+}
+
+.j-select-button {
+    margin-top: 10px;
+}
+
+#diagnostics-view .jive-form-textarea{
+    height: 200px;
+    resize: none;
+}
+
+#rest-endpoint {
+    /*min-height: 80px;*/
+}
+
+.group{
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

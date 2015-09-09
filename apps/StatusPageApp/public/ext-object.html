@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="javascripts/main.js"></script>
+    </head>
+    
+    <body>
+        <div id="component_status" class="group">Loading current component status...</div>
+        <div class="group" id = "createIncident">
+            <form id="incident_form" onsubmit="app.addIncident()">
+                <h3>Create a New Incident</h3>
+                <div class="incident_property">
+                        <label>Incident name</label>
+                        <input type="text" name="incident[name]" id="incident_name" placeholder="Incident Name">
+                </div>
+                <div class="incident_property">
+                        <label>Incident status</label>
+                        <label class="radio no_left"><input type="radio" name="incident[status]" value="investigating" checked>Investigating</label>
+                        <label class="radio"><input type="radio" name="incident[status]" value="identified">Identified</label>
+                        <label class="radio"><input type="radio" name="incident[status]" value="monitoring">Monitoring</label>
+                        <label class="radio"><input type="radio" name="incident[status]" value="resolved">Resolved</label>
+                </div>
+                <div class="incident_property">
+                        <label>Message</label>
+                        <textarea name="incident[message]" id="incident_message" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" id="btn-new-incident" value="Create Incident">
+            </form>
+            <label id="display_form_button" onclick="app.incidentForm()">&#9660; Show Create Incident Form &#9660;</label>
+        </div>
+        <div class="group">
+            <h3>Incidents</h3>
+            <div id="incidents">
+                    <em>Loading incidents...</em>
+            </div>
+        </div>
+    </body>
+</html>

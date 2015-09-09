@@ -1,0 +1,15 @@
+{
+    "package_version": "1.0",
+    "id": "dfbdf40a-d5d9-7c61-3283-a88201c1b54a",
+    "type": "client-app",
+    "name": "StatusPageApp",
+    "description": "A simple stream integration with app for the StatusPage.io service",
+    "minimum_version": "0000",
+    "icon_16": "icon-16.png",
+    "icon_48": "icon-48.png",
+    "icon_128": "icon-128.png",
+    "released_on": "2015-09-09T11:00:00.234Z",
+    "service_url": "http:",
+    "redirect_url": "%serviceURL%",
+    "packageVersion": "1.0"
+}
